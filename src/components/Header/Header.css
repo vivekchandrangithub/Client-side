@@ -1,0 +1,38 @@
+.header{
+    background: url('../../assets/header_img.png')no-repeat;
+    margin: 30px auto;
+    height: 34vw;
+    background-size: contain;
+    position: relative;
+    
+}
+.header-contents{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:15px;
+    max-width: 50%;
+    bottom:10% ;
+    left: 20px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.header-contents h2{
+    color: rgb(234, 231, 238);
+    font-weight: 500;
+    font-size: max(4.5vw,25px);
+    
+}
+.header-contents p{
+    color: rgb(243, 232, 232);
+    font-size: 1.5vw;
+}
+.header-contents button{
+    font-size: 16px;
+    border:1px solid rgb(247, 246, 246);
+    border-radius: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+}
